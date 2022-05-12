@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exer3</title>
+    <meta charset="UTF-8">
+    <script>
+        function Funcao()
+        {
+            var inum= Number(num);
+            var num = document.getElementById("numero").value;
+            inum= prompt('Digite um Numero');
+            if(inum % 2 == 0){
+                alert("Numero Par");
+            }
+            else{
+                alert("Numero Impar");
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="numero" onclick="Funcao()">
+    <button onclick="Funcao();">certificar</button>
+</body>
+</html>

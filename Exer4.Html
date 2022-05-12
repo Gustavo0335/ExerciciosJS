@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>To do list </title>
+</head>
+<body>
+	
+	<header>
+		<h1>To do List (Lista para fazer) </h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="Oque você deseja Fazer?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="ADD" />
+		</form>
+	</header>
+	<main>
+		<section class="task-list">
+			<h2>Pendências</h2>
+
+			<div id="tasks">
+			</div>
+		</section>
+	</main>
+	<script src="ToDo.js"></script>
+</body>
+</html>
